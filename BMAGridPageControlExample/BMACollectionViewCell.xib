@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Okh-2g-c8N" customClass="BMACollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0HM-HS-I6c">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="0HM-HS-I6c" firstAttribute="top" secondItem="Okh-2g-c8N" secondAttribute="top" id="78H-32-zHr"/>
+                <constraint firstAttribute="bottom" secondItem="0HM-HS-I6c" secondAttribute="bottom" id="MA1-uQ-vwh"/>
+                <constraint firstItem="0HM-HS-I6c" firstAttribute="leading" secondItem="Okh-2g-c8N" secondAttribute="leading" id="u6B-eW-Aw4"/>
+                <constraint firstAttribute="trailing" secondItem="0HM-HS-I6c" secondAttribute="trailing" id="x1a-bI-DMr"/>
+            </constraints>
+            <connections>
+                <outlet property="imageView" destination="0HM-HS-I6c" id="ffy-H3-fdh"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

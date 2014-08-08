@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47CC1A011940B7A600D20D8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CC1A001940B7A600D20D8D /* Foundation.framework */; };
+		47CC1A061940B7A600D20D8D /* BMAGridPageControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47CC1A051940B7A600D20D8D /* BMAGridPageControl.h */; };
+		47CC1A081940B7A600D20D8D /* BMAGridPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A071940B7A600D20D8D /* BMAGridPageControl.m */; };
+		47CC1A0F1940B7A600D20D8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CC1A0E1940B7A600D20D8D /* XCTest.framework */; };
+		47CC1A101940B7A600D20D8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CC1A001940B7A600D20D8D /* Foundation.framework */; };
+		47CC1A121940B7A600D20D8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CC1A111940B7A600D20D8D /* UIKit.framework */; };
+		47CC1A151940B7A600D20D8D /* libBMAGridPageControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CC19FD1940B7A600D20D8D /* libBMAGridPageControl.a */; };
+		47CC1A1B1940B7A600D20D8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47CC1A191940B7A600D20D8D /* InfoPlist.strings */; };
+		47CC1A1D1940B7A600D20D8D /* BMAGridPageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A1C1940B7A600D20D8D /* BMAGridPageControlTests.m */; };
+		47CC1A271940B94800D20D8D /* BMAGridPageControlDriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A261940B94800D20D8D /* BMAGridPageControlDriverTests.m */; };
+		47CC1A2B1940B95600D20D8D /* BMAGridPageControlDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A2A1940B95600D20D8D /* BMAGridPageControlDriver.m */; };
+		4A1F73102DA843E6807211BE /* libPods-BMAGridPageControlTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A93265D099F4137926D584B /* libPods-BMAGridPageControlTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		474EB2081940C6E4004F96E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47CC19F51940B7A600D20D8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47CC19FC1940B7A600D20D8D;
+			remoteInfo = BMAGridPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47CC19FB1940B7A600D20D8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				47CC1A061940B7A600D20D8D /* BMAGridPageControl.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlTests.xcconfig"; path = "Pods/Pods-BMAGridPageControlTests.xcconfig"; sourceTree = "<group>"; };
+		474EB2061940C383004F96E0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		47CC19FD1940B7A600D20D8D /* libBMAGridPageControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBMAGridPageControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CC1A001940B7A600D20D8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47CC1A041940B7A600D20D8D /* BMAGridPageControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMAGridPageControl-Prefix.pch"; sourceTree = "<group>"; };
+		47CC1A051940B7A600D20D8D /* BMAGridPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMAGridPageControl.h; sourceTree = "<group>"; };
+		47CC1A071940B7A600D20D8D /* BMAGridPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControl.m; sourceTree = "<group>"; };
+		47CC1A0D1940B7A600D20D8D /* BMAGridPageControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMAGridPageControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CC1A0E1940B7A600D20D8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		47CC1A111940B7A600D20D8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		47CC1A181940B7A600D20D8D /* BMAGridPageControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMAGridPageControlTests-Info.plist"; sourceTree = "<group>"; };
+		47CC1A1A1940B7A600D20D8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47CC1A1C1940B7A600D20D8D /* BMAGridPageControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControlTests.m; sourceTree = "<group>"; };
+		47CC1A261940B94800D20D8D /* BMAGridPageControlDriverTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControlDriverTests.m; sourceTree = "<group>"; };
+		47CC1A281940B95600D20D8D /* BMAGridPageControl_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAGridPageControl_Private.h; sourceTree = "<group>"; };
+		47CC1A291940B95600D20D8D /* BMAGridPageControlDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAGridPageControlDriver.h; sourceTree = "<group>"; };
+		47CC1A2A1940B95600D20D8D /* BMAGridPageControlDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControlDriver.m; sourceTree = "<group>"; };
+		8A93265D099F4137926D584B /* libPods-BMAGridPageControlTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMAGridPageControlTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47CC19FA1940B7A600D20D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CC1A011940B7A600D20D8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CC1A0A1940B7A600D20D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CC1A0F1940B7A600D20D8D /* XCTest.framework in Frameworks */,
+				47CC1A151940B7A600D20D8D /* libBMAGridPageControl.a in Frameworks */,
+				47CC1A121940B7A600D20D8D /* UIKit.framework in Frameworks */,
+				47CC1A101940B7A600D20D8D /* Foundation.framework in Frameworks */,
+				4A1F73102DA843E6807211BE /* libPods-BMAGridPageControlTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47CC19F41940B7A600D20D8D = {
+			isa = PBXGroup;
+			children = (
+				47CC1A021940B7A600D20D8D /* BMAGridPageControl */,
+				47CC1A161940B7A600D20D8D /* BMAGridPageControlTests */,
+				47CC19FF1940B7A600D20D8D /* Frameworks */,
+				47CC19FE1940B7A600D20D8D /* Products */,
+				3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		47CC19FE1940B7A600D20D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47CC19FD1940B7A600D20D8D /* libBMAGridPageControl.a */,
+				47CC1A0D1940B7A600D20D8D /* BMAGridPageControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47CC19FF1940B7A600D20D8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				474EB2061940C383004F96E0 /* SenTestingKit.framework */,
+				47CC1A001940B7A600D20D8D /* Foundation.framework */,
+				47CC1A0E1940B7A600D20D8D /* XCTest.framework */,
+				47CC1A111940B7A600D20D8D /* UIKit.framework */,
+				8A93265D099F4137926D584B /* libPods-BMAGridPageControlTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47CC1A021940B7A600D20D8D /* BMAGridPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				47CC1A051940B7A600D20D8D /* BMAGridPageControl.h */,
+				47CC1A071940B7A600D20D8D /* BMAGridPageControl.m */,
+				47CC1A281940B95600D20D8D /* BMAGridPageControl_Private.h */,
+				47CC1A291940B95600D20D8D /* BMAGridPageControlDriver.h */,
+				47CC1A2A1940B95600D20D8D /* BMAGridPageControlDriver.m */,
+				47CC1A031940B7A600D20D8D /* Supporting Files */,
+			);
+			path = BMAGridPageControl;
+			sourceTree = "<group>";
+		};
+		47CC1A031940B7A600D20D8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47CC1A041940B7A600D20D8D /* BMAGridPageControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47CC1A161940B7A600D20D8D /* BMAGridPageControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				47CC1A261940B94800D20D8D /* BMAGridPageControlDriverTests.m */,
+				47CC1A1C1940B7A600D20D8D /* BMAGridPageControlTests.m */,
+				47CC1A171940B7A600D20D8D /* Supporting Files */,
+			);
+			path = BMAGridPageControlTests;
+			sourceTree = "<group>";
+		};
+		47CC1A171940B7A600D20D8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47CC1A181940B7A600D20D8D /* BMAGridPageControlTests-Info.plist */,
+				47CC1A191940B7A600D20D8D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47CC19FC1940B7A600D20D8D /* BMAGridPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CC1A201940B7A600D20D8D /* Build configuration list for PBXNativeTarget "BMAGridPageControl" */;
+			buildPhases = (
+				47CC19F91940B7A600D20D8D /* Sources */,
+				47CC19FA1940B7A600D20D8D /* Frameworks */,
+				47CC19FB1940B7A600D20D8D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMAGridPageControl;
+			productName = BMAGridPageControl;
+			productReference = 47CC19FD1940B7A600D20D8D /* libBMAGridPageControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		47CC1A0C1940B7A600D20D8D /* BMAGridPageControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CC1A231940B7A600D20D8D /* Build configuration list for PBXNativeTarget "BMAGridPageControlTests" */;
+			buildPhases = (
+				08BD57625C914B00A6B0282A /* Check Pods Manifest.lock */,
+				47CC1A091940B7A600D20D8D /* Sources */,
+				47CC1A0A1940B7A600D20D8D /* Frameworks */,
+				47CC1A0B1940B7A600D20D8D /* Resources */,
+				266491E625E747DBA8B66CE3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				474EB2091940C6E4004F96E0 /* PBXTargetDependency */,
+			);
+			name = BMAGridPageControlTests;
+			productName = BMAGridPageControlTests;
+			productReference = 47CC1A0D1940B7A600D20D8D /* BMAGridPageControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47CC19F51940B7A600D20D8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Badoo;
+			};
+			buildConfigurationList = 47CC19F81940B7A600D20D8D /* Build configuration list for PBXProject "BMAGridPageControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47CC19F41940B7A600D20D8D;
+			productRefGroup = 47CC19FE1940B7A600D20D8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47CC19FC1940B7A600D20D8D /* BMAGridPageControl */,
+				47CC1A0C1940B7A600D20D8D /* BMAGridPageControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47CC1A0B1940B7A600D20D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CC1A1B1940B7A600D20D8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08BD57625C914B00A6B0282A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		266491E625E747DBA8B66CE3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-BMAGridPageControlTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47CC19F91940B7A600D20D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CC1A081940B7A600D20D8D /* BMAGridPageControl.m in Sources */,
+				47CC1A2B1940B95600D20D8D /* BMAGridPageControlDriver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CC1A091940B7A600D20D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CC1A1D1940B7A600D20D8D /* BMAGridPageControlTests.m in Sources */,
+				47CC1A271940B94800D20D8D /* BMAGridPageControlDriverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		474EB2091940C6E4004F96E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47CC19FC1940B7A600D20D8D /* BMAGridPageControl */;
+			targetProxy = 474EB2081940C6E4004F96E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47CC1A191940B7A600D20D8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47CC1A1A1940B7A600D20D8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17A5AA09513B4F92AE20E2BD /* profiling */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMAGridPageControl/BMAGridPageControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BMAGridPageControlTests/BMAGridPageControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = profiling;
+		};
+		44243D2B521E4E379E163F25 /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = adhoc;
+		};
+		47CC1A1E1940B7A600D20D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47CC1A1F1940B7A600D20D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47CC1A211940B7A600D20D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BMAGridPageControl.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMAGridPageControl/BMAGridPageControl-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47CC1A221940B7A600D20D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BMAGridPageControl.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMAGridPageControl/BMAGridPageControl-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47CC1A241940B7A600D20D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMAGridPageControl/BMAGridPageControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BMAGridPageControlTests/BMAGridPageControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		47CC1A251940B7A600D20D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMAGridPageControl/BMAGridPageControl-Prefix.pch";
+				INFOPLIST_FILE = "BMAGridPageControlTests/BMAGridPageControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		7C30929FE9A34207BEA67348 /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BMAGridPageControl.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMAGridPageControl/BMAGridPageControl-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = adhoc;
+		};
+		8CD4D2A881D34ACA91ED550D /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMAGridPageControl/BMAGridPageControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BMAGridPageControlTests/BMAGridPageControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = adhoc;
+		};
+		ADBB1EF649AB45E8AC5BC82F /* profiling */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = profiling;
+		};
+		BE99E4C4F93245C9AA2CE9C9 /* profiling */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = profiling;
+		};
+		F7CA1AEA22CD4A5C89788432 /* profiling */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BMAGridPageControl.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMAGridPageControl/BMAGridPageControl-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = profiling;
+		};
+		FE91BD74B3494B60B18C3380 /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = adhoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47CC19F81940B7A600D20D8D /* Build configuration list for PBXProject "BMAGridPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CC1A1E1940B7A600D20D8D /* Debug */,
+				47CC1A1F1940B7A600D20D8D /* Release */,
+				44243D2B521E4E379E163F25 /* adhoc */,
+				FE91BD74B3494B60B18C3380 /* adhoc */,
+				ADBB1EF649AB45E8AC5BC82F /* profiling */,
+				BE99E4C4F93245C9AA2CE9C9 /* profiling */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CC1A201940B7A600D20D8D /* Build configuration list for PBXNativeTarget "BMAGridPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CC1A211940B7A600D20D8D /* Debug */,
+				47CC1A221940B7A600D20D8D /* Release */,
+				7C30929FE9A34207BEA67348 /* adhoc */,
+				F7CA1AEA22CD4A5C89788432 /* profiling */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CC1A231940B7A600D20D8D /* Build configuration list for PBXNativeTarget "BMAGridPageControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CC1A241940B7A600D20D8D /* Debug */,
+				47CC1A251940B7A600D20D8D /* Release */,
+				8CD4D2A881D34ACA91ED550D /* adhoc */,
+				17A5AA09513B4F92AE20E2BD /* profiling */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47CC19F51940B7A600D20D8D /* Project object */;
+}
