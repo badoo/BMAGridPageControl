@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/badoo/BMAGridPageControl.svg?branch=master)](https://travis-ci.org/badoo/BMAGridPageControl)
+
 ##A different page control
 ![demo](/demoimages/demo.gif)
 
