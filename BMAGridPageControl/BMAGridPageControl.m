@@ -133,14 +133,14 @@
 #pragma mark - Driver delegate
 - (void)pageControlDriver:(BMAGridPageControlDriver *)driver currentItemChangedFrom:(NSUInteger)oldIndex {
     BMA_WEAK_SELF
-    [UIView animateWithDuration:[self animationDuration] delay:0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+    [UIView animateWithDuration:[self animationDuration] delay:0 options:UIViewAnimationOptionCurveEaseInOut|UIViewAnimationOptionBeginFromCurrentState animations:^{
         [weakSelf layoutStaticViews];
     } completion:nil];
 }
 
 - (void)pageControlDriver:(BMAGridPageControlDriver *)driver totalNumberOfItemsChangedFrom:(NSUInteger)oldTotalCount {
     BMA_WEAK_SELF
-    [UIView animateWithDuration:[self animationDuration] delay:0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+    [UIView animateWithDuration:[self animationDuration] delay:0 options:UIViewAnimationOptionCurveEaseInOut|UIViewAnimationOptionBeginFromCurrentState animations:^{
         [weakSelf layoutStaticViews];
     } completion:nil];
 }
@@ -165,7 +165,7 @@
     [self addSubviews:viewsAppearing];
     
     BMA_WEAK_SELF
-    [UIView animateWithDuration:[self rowAnimationDuration] delay:0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+    [UIView animateWithDuration:[self rowAnimationDuration] delay:0 options:UIViewAnimationOptionCurveEaseInOut|UIViewAnimationOptionBeginFromCurrentState animations:^{
         [weakSelf animateInternalViewsWithDirection:direction];
         [weakSelf animateAppearingViews:viewsAppearing withDirection:direction];
         [weakSelf animateDisappearingViews:viewsDisappearing withDirection:direction];
