@@ -5,14 +5,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        An optional longer description of BMAGridPageControl
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       BMAGridPageControl is a page control in form of a grid. It hints users that what they are scrolling actually can take form of a grid.
                        DESC
   s.homepage         = "http://www.hotornot.com"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.license          = { :type => 'MIT' }
   s.author           = { "Miguel Angel Quinones" => "miguel.quinones@corp.badoo.com" }
-  s.source           = { :git => "http://TODO.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/badoo/BMAGridPageControl.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/hotornot'
 
    s.platform     = :ios, '7.0'
