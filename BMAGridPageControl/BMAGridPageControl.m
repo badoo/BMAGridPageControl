@@ -246,6 +246,10 @@
 }
 
 - (NSUInteger)enteringRowFromDisplayRow:(NSUInteger)displayRow andDirection:(CGFloat)direction {
+    if (displayRow == 0 && direction < 0.f) {
+        return 0;
+    }
+    
     return direction > 0.f ? displayRow - 1 : displayRow + 1;
 }
 
