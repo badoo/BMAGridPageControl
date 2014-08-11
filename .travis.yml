@@ -1,0 +1,3 @@
+language: objective-c
+xcode_workspace: BMAGridPageControl.xcworkspace
+xcode_scheme: BMAGridPageControl
