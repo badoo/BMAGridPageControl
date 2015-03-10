@@ -1,7 +1,7 @@
 PODS:
   - AHEasing (1.2)
-  - OCMock (2.2.4)
-  - TLLayoutTransitioning (1.0.0):
+  - OCMock (3.1.2)
+  - TLLayoutTransitioning (1.0.3):
     - AHEasing
 
 DEPENDENCIES:
@@ -9,8 +9,8 @@ DEPENDENCIES:
   - TLLayoutTransitioning
 
 SPEC CHECKSUMS:
-  AHEasing: 539ed2ec2d50bf14e0ad66789b4e5a5b048aff8b
-  OCMock: 5008fae4b4789b8fc3e48cd7660f2eb5ef8ce89e
-  TLLayoutTransitioning: 925d8fbcc9964eea933e93600067f759cb823780
+  AHEasing: ecab36683ef8c3a9a925fb85e892d1335e750f31
+  OCMock: ecdd510b73ef397f2f97274785c1e87fd147c49f
+  TLLayoutTransitioning: 2939a6cf6464f5b8246b190dbfbd0b17a88ca877
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.35.0
