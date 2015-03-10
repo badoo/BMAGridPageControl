@@ -1,3 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
 workspace 'BMAGridPageControl.xcworkspace'
 xcodeproj 'BMAGridPageControl.xcodeproj'
 xcodeproj 'BMAGridPageControlExample.xcodeproj'

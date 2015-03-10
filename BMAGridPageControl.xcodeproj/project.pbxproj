@@ -45,7 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlTests.xcconfig"; path = "Pods/Pods-BMAGridPageControlTests.xcconfig"; sourceTree = "<group>"; };
+		405BD7D9225E45BCE95057DB /* Pods-BMAGridPageControlTests.profiling.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlTests.profiling.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControlTests/Pods-BMAGridPageControlTests.profiling.xcconfig"; sourceTree = "<group>"; };
 		474EB2061940C383004F96E0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		47CC19FD1940B7A600D20D8D /* libBMAGridPageControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBMAGridPageControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CC1A001940B7A600D20D8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,10 @@
 		47CC1A281940B95600D20D8D /* BMAGridPageControl_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAGridPageControl_Private.h; sourceTree = "<group>"; };
 		47CC1A291940B95600D20D8D /* BMAGridPageControlDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAGridPageControlDriver.h; sourceTree = "<group>"; };
 		47CC1A2A1940B95600D20D8D /* BMAGridPageControlDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControlDriver.m; sourceTree = "<group>"; };
+		772F1B53897B01EEE23D14CA /* Pods-BMAGridPageControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControlTests/Pods-BMAGridPageControlTests.release.xcconfig"; sourceTree = "<group>"; };
 		8A93265D099F4137926D584B /* libPods-BMAGridPageControlTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMAGridPageControlTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45BE2B019B6409B8EEE0B73 /* Pods-BMAGridPageControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControlTests/Pods-BMAGridPageControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE8FCDF40E2F1885DD94C30 /* Pods-BMAGridPageControlTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlTests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControlTests/Pods-BMAGridPageControlTests.adhoc.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +99,7 @@
 				47CC1A161940B7A600D20D8D /* BMAGridPageControlTests */,
 				47CC19FF1940B7A600D20D8D /* Frameworks */,
 				47CC19FE1940B7A600D20D8D /* Products */,
-				3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */,
+				56055CC91217A20FA59E6E74 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +162,17 @@
 				47CC1A191940B7A600D20D8D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56055CC91217A20FA59E6E74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C45BE2B019B6409B8EEE0B73 /* Pods-BMAGridPageControlTests.debug.xcconfig */,
+				772F1B53897B01EEE23D14CA /* Pods-BMAGridPageControlTests.release.xcconfig */,
+				DFE8FCDF40E2F1885DD94C30 /* Pods-BMAGridPageControlTests.adhoc.xcconfig */,
+				405BD7D9225E45BCE95057DB /* Pods-BMAGridPageControlTests.profiling.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +281,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-BMAGridPageControlTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMAGridPageControlTests/Pods-BMAGridPageControlTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -315,7 +329,7 @@
 /* Begin XCBuildConfiguration section */
 		17A5AA09513B4F92AE20E2BD /* profiling */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */;
+			baseConfigurationReference = 405BD7D9225E45BCE95057DB /* Pods-BMAGridPageControlTests.profiling.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -501,7 +515,7 @@
 		};
 		47CC1A241940B7A600D20D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */;
+			baseConfigurationReference = C45BE2B019B6409B8EEE0B73 /* Pods-BMAGridPageControlTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -522,7 +536,7 @@
 		};
 		47CC1A251940B7A600D20D8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */;
+			baseConfigurationReference = 772F1B53897B01EEE23D14CA /* Pods-BMAGridPageControlTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -551,7 +565,7 @@
 		};
 		8CD4D2A881D34ACA91ED550D /* adhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9E977934C548E396D2CE5D /* Pods-BMAGridPageControlTests.xcconfig */;
+			baseConfigurationReference = DFE8FCDF40E2F1885DD94C30 /* Pods-BMAGridPageControlTests.adhoc.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
