@@ -11,7 +11,6 @@ target 'BMAGridPageControlExample', :exclusive => true do
   xcodeproj 'BMAGridPageControlExample.xcodeproj'
 end
 
-
 target 'BMAGridPageControlTests', :exclusive => true do
   pod 'OCMock'
   xcodeproj 'BMAGridPageControl.xcodeproj'
