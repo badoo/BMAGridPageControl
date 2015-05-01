@@ -6,7 +6,3 @@ target 'BMAGridPageControlTests', :exclusive => true do
   pod 'OCMock'
 end
 
-target 'BMAGridPageControl-FrameworkTests', :exclusive => true do
-  pod 'OCMock'
-end
-
