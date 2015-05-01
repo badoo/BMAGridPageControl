@@ -1,0 +1,20 @@
+PODS:
+  - AHEasing (1.2)
+  - BMAGridPageControl (1.0.1)
+  - TLLayoutTransitioning (1.0.4):
+    - AHEasing
+
+DEPENDENCIES:
+  - BMAGridPageControl (from `./..`)
+  - TLLayoutTransitioning
+
+EXTERNAL SOURCES:
+  BMAGridPageControl:
+    :path: "./.."
+
+SPEC CHECKSUMS:
+  AHEasing: 847f583bcd83a2bb850e38ccdb26d22e2593f34d
+  BMAGridPageControl: c4751f20c2c589ba33031820e987cf5d01b4b55a
+  TLLayoutTransitioning: 6a2694027ac0b3acbf8ec3d21a1185d761777740
+
+COCOAPODS: 0.36.4

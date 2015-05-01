@@ -3,12 +3,16 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "CircleGrid.png"
+      "filename" : "SquareFocused.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "CircleGrid@2x.png"
+      "filename" : "SquareFocused@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

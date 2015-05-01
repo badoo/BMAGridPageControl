@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		472937EF19588902003A1E2C /* BMACollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472937EE19588902003A1E2C /* BMACollectionViewCell.xib */; };
-		472937F819589302003A1E2C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472937F119589302003A1E2C /* 1.jpg */; };
-		472937F919589302003A1E2C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 472937F219589302003A1E2C /* 2.png */; };
-		472937FA19589302003A1E2C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472937F319589302003A1E2C /* 3.jpg */; };
-		472937FB19589302003A1E2C /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 472937F419589302003A1E2C /* 4.png */; };
-		472937FC19589302003A1E2C /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472937F519589302003A1E2C /* 5.jpg */; };
-		472937FD19589302003A1E2C /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 472937F619589302003A1E2C /* 6.jpeg */; };
-		472937FE19589302003A1E2C /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472937F719589302003A1E2C /* 7.jpg */; };
+		0FEC3DC1C5671404D3FB2BCC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7446C0DF0F1362FB33F69573 /* libPods.a */; };
 		473B3BC61940B74800600830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473B3BC51940B74800600830 /* Foundation.framework */; };
 		473B3BC81940B74800600830 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473B3BC71940B74800600830 /* CoreGraphics.framework */; };
 		473B3BCA1940B74800600830 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473B3BC91940B74800600830 /* UIKit.framework */; };
-		473B3BD01940B74800600830 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 473B3BCE1940B74800600830 /* InfoPlist.strings */; };
-		473B3BD21940B74800600830 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 473B3BD11940B74800600830 /* main.m */; };
-		473B3BD61940B74800600830 /* BMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 473B3BD51940B74800600830 /* BMAAppDelegate.m */; };
-		473B3BD91940B74800600830 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473B3BD71940B74800600830 /* Main_iPhone.storyboard */; };
-		473B3BDF1940B74800600830 /* BMAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473B3BDE1940B74800600830 /* BMAViewController.m */; };
-		473B3BE11940B74800600830 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473B3BE01940B74800600830 /* Images.xcassets */; };
 		473B3BE81940B74800600830 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473B3BE71940B74800600830 /* XCTest.framework */; };
 		473B3BE91940B74800600830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473B3BC51940B74800600830 /* Foundation.framework */; };
 		473B3BEA1940B74800600830 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473B3BC91940B74800600830 /* UIKit.framework */; };
 		473B3BF21940B74800600830 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 473B3BF01940B74800600830 /* InfoPlist.strings */; };
 		473B3BF41940B74800600830 /* BMAGridPageControlExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 473B3BF31940B74800600830 /* BMAGridPageControlExampleTests.m */; };
-		474EB20B1940CC48004F96E0 /* libBMAGridPageControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 474EB20A1940CC48004F96E0 /* libBMAGridPageControl.a */; };
-		478C2E7919587AA800BEDD23 /* BMACollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 478C2E7819587AA800BEDD23 /* BMACollectionViewCell.m */; };
-		F5F204EA7D814B32838FF1E4 /* libPods-BMAGridPageControlExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02586B7C6928411AB10813B6 /* libPods-BMAGridPageControlExample.a */; };
+		4763C6681AF37D2F00C2C0F5 /* BMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4763C65D1AF37D2F00C2C0F5 /* BMAAppDelegate.m */; };
+		4763C6691AF37D2F00C2C0F5 /* BMACollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4763C65F1AF37D2F00C2C0F5 /* BMACollectionViewCell.m */; };
+		4763C66A1AF37D2F00C2C0F5 /* BMACollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4763C6601AF37D2F00C2C0F5 /* BMACollectionViewCell.xib */; };
+		4763C66B1AF37D2F00C2C0F5 /* BMAGridPageControlExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4763C6611AF37D2F00C2C0F5 /* BMAGridPageControlExample-Info.plist */; };
+		4763C66C1AF37D2F00C2C0F5 /* BMAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4763C6641AF37D2F00C2C0F5 /* BMAViewController.m */; };
+		4763C66E1AF37D2F00C2C0F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4763C6661AF37D2F00C2C0F5 /* Images.xcassets */; };
+		4763C66F1AF37D2F00C2C0F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4763C6671AF37D2F00C2C0F5 /* main.m */; };
+		4763C6751AF37DD100C2C0F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4763C6731AF37DD100C2C0F5 /* InfoPlist.strings */; };
+		4763C6941AF37E6A00C2C0F5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4763C68D1AF37E6A00C2C0F5 /* 1.jpg */; };
+		4763C6951AF37E6A00C2C0F5 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4763C68E1AF37E6A00C2C0F5 /* 2.png */; };
+		4763C6961AF37E6A00C2C0F5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4763C68F1AF37E6A00C2C0F5 /* 3.jpg */; };
+		4763C6971AF37E6A00C2C0F5 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4763C6901AF37E6A00C2C0F5 /* 4.png */; };
+		4763C6981AF37E6A00C2C0F5 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4763C6911AF37E6A00C2C0F5 /* 5.jpg */; };
+		4763C6991AF37E6A00C2C0F5 /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4763C6921AF37E6A00C2C0F5 /* 6.jpeg */; };
+		4763C69A1AF37E6A00C2C0F5 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4763C6931AF37E6A00C2C0F5 /* 7.jpg */; };
+		4763C69B1AF37E7800C2C0F5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4763C6701AF37DC400C2C0F5 /* Main_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,38 +46,39 @@
 
 /* Begin PBXFileReference section */
 		02586B7C6928411AB10813B6 /* libPods-BMAGridPageControlExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMAGridPageControlExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		468EE320941EF6339A21D578 /* Pods-BMAGridPageControlExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControlExample/Pods-BMAGridPageControlExample.release.xcconfig"; sourceTree = "<group>"; };
-		472937EE19588902003A1E2C /* BMACollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMACollectionViewCell.xib; sourceTree = "<group>"; };
-		472937F119589302003A1E2C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = images/1.jpg; sourceTree = "<group>"; };
-		472937F219589302003A1E2C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = images/2.png; sourceTree = "<group>"; };
-		472937F319589302003A1E2C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = images/3.jpg; sourceTree = "<group>"; };
-		472937F419589302003A1E2C /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = images/4.png; sourceTree = "<group>"; };
-		472937F519589302003A1E2C /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = images/5.jpg; sourceTree = "<group>"; };
-		472937F619589302003A1E2C /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpeg; path = images/6.jpeg; sourceTree = "<group>"; };
-		472937F719589302003A1E2C /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpg; path = images/7.jpg; sourceTree = "<group>"; };
 		473B3BC21940B74800600830 /* BMAGridPageControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMAGridPageControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		473B3BC51940B74800600830 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		473B3BC71940B74800600830 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		473B3BC91940B74800600830 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		473B3BCD1940B74800600830 /* BMAGridPageControlExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMAGridPageControlExample-Info.plist"; sourceTree = "<group>"; };
-		473B3BCF1940B74800600830 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		473B3BD11940B74800600830 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		473B3BD31940B74800600830 /* BMAGridPageControlExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMAGridPageControlExample-Prefix.pch"; sourceTree = "<group>"; };
-		473B3BD41940B74800600830 /* BMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMAAppDelegate.h; sourceTree = "<group>"; };
-		473B3BD51940B74800600830 /* BMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAAppDelegate.m; sourceTree = "<group>"; };
-		473B3BD81940B74800600830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		473B3BDD1940B74800600830 /* BMAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMAViewController.h; sourceTree = "<group>"; };
-		473B3BDE1940B74800600830 /* BMAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAViewController.m; sourceTree = "<group>"; };
-		473B3BE01940B74800600830 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		473B3BE61940B74800600830 /* BMAGridPageControlExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMAGridPageControlExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		473B3BE71940B74800600830 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		473B3BEF1940B74800600830 /* BMAGridPageControlExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMAGridPageControlExampleTests-Info.plist"; sourceTree = "<group>"; };
 		473B3BF11940B74800600830 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		473B3BF31940B74800600830 /* BMAGridPageControlExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControlExampleTests.m; sourceTree = "<group>"; };
 		474EB20A1940CC48004F96E0 /* libBMAGridPageControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBMAGridPageControl.a; path = "build/Debug-iphoneos/libBMAGridPageControl.a"; sourceTree = "<group>"; };
-		478C2E7719587AA800BEDD23 /* BMACollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMACollectionViewCell.h; sourceTree = "<group>"; };
-		478C2E7819587AA800BEDD23 /* BMACollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMACollectionViewCell.m; sourceTree = "<group>"; };
-		BFA3EBA4ED9FE6B91C85548D /* Pods-BMAGridPageControlExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControlExample/Pods-BMAGridPageControlExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4763C65C1AF37D2F00C2C0F5 /* BMAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		4763C65D1AF37D2F00C2C0F5 /* BMAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		4763C65E1AF37D2F00C2C0F5 /* BMACollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMACollectionViewCell.h; sourceTree = SOURCE_ROOT; };
+		4763C65F1AF37D2F00C2C0F5 /* BMACollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMACollectionViewCell.m; sourceTree = SOURCE_ROOT; };
+		4763C6601AF37D2F00C2C0F5 /* BMACollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMACollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
+		4763C6611AF37D2F00C2C0F5 /* BMAGridPageControlExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BMAGridPageControlExample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4763C6621AF37D2F00C2C0F5 /* BMAGridPageControlExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BMAGridPageControlExample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4763C6631AF37D2F00C2C0F5 /* BMAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAViewController.h; sourceTree = SOURCE_ROOT; };
+		4763C6641AF37D2F00C2C0F5 /* BMAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAViewController.m; sourceTree = SOURCE_ROOT; };
+		4763C6661AF37D2F00C2C0F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
+		4763C6671AF37D2F00C2C0F5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		4763C6711AF37DC400C2C0F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		4763C6741AF37DD100C2C0F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		4763C68D1AF37E6A00C2C0F5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = images/1.jpg; sourceTree = SOURCE_ROOT; };
+		4763C68E1AF37E6A00C2C0F5 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = images/2.png; sourceTree = SOURCE_ROOT; };
+		4763C68F1AF37E6A00C2C0F5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = images/3.jpg; sourceTree = SOURCE_ROOT; };
+		4763C6901AF37E6A00C2C0F5 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = images/4.png; sourceTree = SOURCE_ROOT; };
+		4763C6911AF37E6A00C2C0F5 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = images/5.jpg; sourceTree = SOURCE_ROOT; };
+		4763C6921AF37E6A00C2C0F5 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpeg; path = images/6.jpeg; sourceTree = SOURCE_ROOT; };
+		4763C6931AF37E6A00C2C0F5 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpg; path = images/7.jpg; sourceTree = SOURCE_ROOT; };
+		70EE178EF9919ACDD36F0B8C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7446C0DF0F1362FB33F69573 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B930F24B36A6D17BCA0C1C4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +86,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				474EB20B1940CC48004F96E0 /* libBMAGridPageControl.a in Frameworks */,
 				473B3BC81940B74800600830 /* CoreGraphics.framework in Frameworks */,
 				473B3BCA1940B74800600830 /* UIKit.framework in Frameworks */,
 				473B3BC61940B74800600830 /* Foundation.framework in Frameworks */,
-				F5F204EA7D814B32838FF1E4 /* libPods-BMAGridPageControlExample.a in Frameworks */,
+				0FEC3DC1C5671404D3FB2BCC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,20 +106,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		472937F0195892E4003A1E2C /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				472937F119589302003A1E2C /* 1.jpg */,
-				472937F219589302003A1E2C /* 2.png */,
-				472937F319589302003A1E2C /* 3.jpg */,
-				472937F419589302003A1E2C /* 4.png */,
-				472937F519589302003A1E2C /* 5.jpg */,
-				472937F619589302003A1E2C /* 6.jpeg */,
-				472937F719589302003A1E2C /* 7.jpg */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
 		473B3BB91940B74800600830 = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +113,7 @@
 				473B3BED1940B74800600830 /* BMAGridPageControlExampleTests */,
 				473B3BC41940B74800600830 /* Frameworks */,
 				473B3BC31940B74800600830 /* Products */,
-				D36629B853B642CF32B166D1 /* Pods */,
+				8871169AEA4C2C614E14F80F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +135,7 @@
 				473B3BC91940B74800600830 /* UIKit.framework */,
 				473B3BE71940B74800600830 /* XCTest.framework */,
 				02586B7C6928411AB10813B6 /* libPods-BMAGridPageControlExample.a */,
+				7446C0DF0F1362FB33F69573 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,30 +143,22 @@
 		473B3BCB1940B74800600830 /* BMAGridPageControlExample */ = {
 			isa = PBXGroup;
 			children = (
-				472937F0195892E4003A1E2C /* Images */,
-				473B3BD41940B74800600830 /* BMAAppDelegate.h */,
-				473B3BD51940B74800600830 /* BMAAppDelegate.m */,
-				473B3BDD1940B74800600830 /* BMAViewController.h */,
-				473B3BDE1940B74800600830 /* BMAViewController.m */,
-				473B3BE01940B74800600830 /* Images.xcassets */,
-				473B3BD71940B74800600830 /* Main_iPhone.storyboard */,
-				473B3BCC1940B74800600830 /* Supporting Files */,
-				478C2E7719587AA800BEDD23 /* BMACollectionViewCell.h */,
-				478C2E7819587AA800BEDD23 /* BMACollectionViewCell.m */,
-				472937EE19588902003A1E2C /* BMACollectionViewCell.xib */,
+				4763C68C1AF37E5F00C2C0F5 /* images */,
+				4763C65C1AF37D2F00C2C0F5 /* BMAAppDelegate.h */,
+				4763C65D1AF37D2F00C2C0F5 /* BMAAppDelegate.m */,
+				4763C65E1AF37D2F00C2C0F5 /* BMACollectionViewCell.h */,
+				4763C65F1AF37D2F00C2C0F5 /* BMACollectionViewCell.m */,
+				4763C6601AF37D2F00C2C0F5 /* BMACollectionViewCell.xib */,
+				4763C6611AF37D2F00C2C0F5 /* BMAGridPageControlExample-Info.plist */,
+				4763C6621AF37D2F00C2C0F5 /* BMAGridPageControlExample-Prefix.pch */,
+				4763C6631AF37D2F00C2C0F5 /* BMAViewController.h */,
+				4763C6641AF37D2F00C2C0F5 /* BMAViewController.m */,
+				4763C6661AF37D2F00C2C0F5 /* Images.xcassets */,
+				4763C6731AF37DD100C2C0F5 /* InfoPlist.strings */,
+				4763C6701AF37DC400C2C0F5 /* Main_iPhone.storyboard */,
+				4763C6671AF37D2F00C2C0F5 /* main.m */,
 			);
 			path = BMAGridPageControlExample;
-			sourceTree = "<group>";
-		};
-		473B3BCC1940B74800600830 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				473B3BCD1940B74800600830 /* BMAGridPageControlExample-Info.plist */,
-				473B3BCE1940B74800600830 /* InfoPlist.strings */,
-				473B3BD11940B74800600830 /* main.m */,
-				473B3BD31940B74800600830 /* BMAGridPageControlExample-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		473B3BED1940B74800600830 /* BMAGridPageControlExampleTests */ = {
@@ -200,11 +179,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D36629B853B642CF32B166D1 /* Pods */ = {
+		4763C68C1AF37E5F00C2C0F5 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				BFA3EBA4ED9FE6B91C85548D /* Pods-BMAGridPageControlExample.debug.xcconfig */,
-				468EE320941EF6339A21D578 /* Pods-BMAGridPageControlExample.release.xcconfig */,
+				4763C68D1AF37E6A00C2C0F5 /* 1.jpg */,
+				4763C68E1AF37E6A00C2C0F5 /* 2.png */,
+				4763C68F1AF37E6A00C2C0F5 /* 3.jpg */,
+				4763C6901AF37E6A00C2C0F5 /* 4.png */,
+				4763C6911AF37E6A00C2C0F5 /* 5.jpg */,
+				4763C6921AF37E6A00C2C0F5 /* 6.jpeg */,
+				4763C6931AF37E6A00C2C0F5 /* 7.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		8871169AEA4C2C614E14F80F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70EE178EF9919ACDD36F0B8C /* Pods.debug.xcconfig */,
+				8B930F24B36A6D17BCA0C1C4 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -288,17 +281,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472937FE19589302003A1E2C /* 7.jpg in Resources */,
-				472937FD19589302003A1E2C /* 6.jpeg in Resources */,
-				472937F919589302003A1E2C /* 2.png in Resources */,
-				473B3BE11940B74800600830 /* Images.xcassets in Resources */,
-				472937EF19588902003A1E2C /* BMACollectionViewCell.xib in Resources */,
-				472937FC19589302003A1E2C /* 5.jpg in Resources */,
-				473B3BD91940B74800600830 /* Main_iPhone.storyboard in Resources */,
-				472937FB19589302003A1E2C /* 4.png in Resources */,
-				473B3BD01940B74800600830 /* InfoPlist.strings in Resources */,
-				472937FA19589302003A1E2C /* 3.jpg in Resources */,
-				472937F819589302003A1E2C /* 1.jpg in Resources */,
+				4763C69A1AF37E6A00C2C0F5 /* 7.jpg in Resources */,
+				4763C6991AF37E6A00C2C0F5 /* 6.jpeg in Resources */,
+				4763C6951AF37E6A00C2C0F5 /* 2.png in Resources */,
+				4763C6751AF37DD100C2C0F5 /* InfoPlist.strings in Resources */,
+				4763C66E1AF37D2F00C2C0F5 /* Images.xcassets in Resources */,
+				4763C6981AF37E6A00C2C0F5 /* 5.jpg in Resources */,
+				4763C66A1AF37D2F00C2C0F5 /* BMACollectionViewCell.xib in Resources */,
+				4763C6971AF37E6A00C2C0F5 /* 4.png in Resources */,
+				4763C69B1AF37E7800C2C0F5 /* Main_iPhone.storyboard in Resources */,
+				4763C66B1AF37D2F00C2C0F5 /* BMAGridPageControlExample-Info.plist in Resources */,
+				4763C6961AF37E6A00C2C0F5 /* 3.jpg in Resources */,
+				4763C6941AF37E6A00C2C0F5 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +319,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMAGridPageControlExample/Pods-BMAGridPageControlExample-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		498859CECD3E42AD8CA5DB9D /* Check Pods Manifest.lock */ = {
@@ -350,10 +344,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				473B3BD21940B74800600830 /* main.m in Sources */,
-				478C2E7919587AA800BEDD23 /* BMACollectionViewCell.m in Sources */,
-				473B3BDF1940B74800600830 /* BMAViewController.m in Sources */,
-				473B3BD61940B74800600830 /* BMAAppDelegate.m in Sources */,
+				4763C6681AF37D2F00C2C0F5 /* BMAAppDelegate.m in Sources */,
+				4763C66C1AF37D2F00C2C0F5 /* BMAViewController.m in Sources */,
+				4763C66F1AF37D2F00C2C0F5 /* main.m in Sources */,
+				4763C6691AF37D2F00C2C0F5 /* BMACollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,26 +370,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		473B3BCE1940B74800600830 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				473B3BCF1940B74800600830 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		473B3BD71940B74800600830 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				473B3BD81940B74800600830 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
 		473B3BF01940B74800600830 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				473B3BF11940B74800600830 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4763C6701AF37DC400C2C0F5 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4763C6711AF37DC400C2C0F5 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4763C6731AF37DD100C2C0F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4763C6741AF37DD100C2C0F5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -477,13 +471,13 @@
 		};
 		473B3BF81940B74800600830 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFA3EBA4ED9FE6B91C85548D /* Pods-BMAGridPageControlExample.debug.xcconfig */;
+			baseConfigurationReference = 70EE178EF9919ACDD36F0B8C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BMAGridPageControlExample/BMAGridPageControlExample-Prefix.pch";
-				INFOPLIST_FILE = "BMAGridPageControlExample/BMAGridPageControlExample-Info.plist";
+				GCC_PREFIX_HEADER = "BMAGridPageControlExample-Prefix.pch";
+				INFOPLIST_FILE = "BMAGridPageControlExample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -495,13 +489,13 @@
 		};
 		473B3BF91940B74800600830 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 468EE320941EF6339A21D578 /* Pods-BMAGridPageControlExample.release.xcconfig */;
+			baseConfigurationReference = 8B930F24B36A6D17BCA0C1C4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BMAGridPageControlExample/BMAGridPageControlExample-Prefix.pch";
-				INFOPLIST_FILE = "BMAGridPageControlExample/BMAGridPageControlExample-Info.plist";
+				GCC_PREFIX_HEADER = "BMAGridPageControlExample-Prefix.pch";
+				INFOPLIST_FILE = "BMAGridPageControlExample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
