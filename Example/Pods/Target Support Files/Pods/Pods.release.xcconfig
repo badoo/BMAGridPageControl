@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AHEasing" "${PODS_ROOT}/Headers/Public/BMAGridPageControl" "${PODS_ROOT}/Headers/Public/TLLayoutTransitioning"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AHEasing" -isystem "${PODS_ROOT}/Headers/Public/BMAGridPageControl" -isystem "${PODS_ROOT}/Headers/Public/TLLayoutTransitioning"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-AHEasing" -l"Pods-BMAGridPageControl" -l"Pods-TLLayoutTransitioning" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

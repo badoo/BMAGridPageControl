@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		475F85D81AF382A3000AD30D /* BMAGridPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A071940B7A600D20D8D /* BMAGridPageControl.m */; };
+		475F85DB1AF382A3000AD30D /* BMAGridPageControlDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A2A1940B95600D20D8D /* BMAGridPageControlDriver.m */; };
+		475F86121AF38602000AD30D /* BMAGridPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC1A051940B7A600D20D8D /* BMAGridPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47CC1A011940B7A600D20D8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CC1A001940B7A600D20D8D /* Foundation.framework */; };
 		47CC1A061940B7A600D20D8D /* BMAGridPageControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47CC1A051940B7A600D20D8D /* BMAGridPageControl.h */; };
 		47CC1A081940B7A600D20D8D /* BMAGridPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A071940B7A600D20D8D /* BMAGridPageControl.m */; };
@@ -47,6 +50,8 @@
 /* Begin PBXFileReference section */
 		405BD7D9225E45BCE95057DB /* Pods-BMAGridPageControlTests.profiling.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlTests.profiling.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControlTests/Pods-BMAGridPageControlTests.profiling.xcconfig"; sourceTree = "<group>"; };
 		474EB2061940C383004F96E0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		475F85BA1AF3822C000AD30D /* BMAGridPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BMAGridPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		475F85BD1AF3822C000AD30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47CC19FD1940B7A600D20D8D /* libBMAGridPageControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBMAGridPageControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CC1A001940B7A600D20D8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		47CC1A041940B7A600D20D8D /* BMAGridPageControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMAGridPageControl-Prefix.pch"; sourceTree = "<group>"; };
@@ -59,16 +64,27 @@
 		47CC1A1A1940B7A600D20D8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47CC1A1C1940B7A600D20D8D /* BMAGridPageControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControlTests.m; sourceTree = "<group>"; };
 		47CC1A261940B94800D20D8D /* BMAGridPageControlDriverTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControlDriverTests.m; sourceTree = "<group>"; };
-		47CC1A281940B95600D20D8D /* BMAGridPageControl_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAGridPageControl_Private.h; sourceTree = "<group>"; };
 		47CC1A291940B95600D20D8D /* BMAGridPageControlDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAGridPageControlDriver.h; sourceTree = "<group>"; };
 		47CC1A2A1940B95600D20D8D /* BMAGridPageControlDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControlDriver.m; sourceTree = "<group>"; };
+		5ED514FBAAE803400FB5C689 /* Pods-BMAGridPageControl-FrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControl-FrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControl-FrameworkTests/Pods-BMAGridPageControl-FrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		772F1B53897B01EEE23D14CA /* Pods-BMAGridPageControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControlTests/Pods-BMAGridPageControlTests.release.xcconfig"; sourceTree = "<group>"; };
 		8A93265D099F4137926D584B /* libPods-BMAGridPageControlTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMAGridPageControlTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B94AF02276A66DCDEE0B6C /* Pods-BMAGridPageControl-FrameworkTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControl-FrameworkTests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControl-FrameworkTests/Pods-BMAGridPageControl-FrameworkTests.adhoc.xcconfig"; sourceTree = "<group>"; };
+		B702E3A9AB35CAECA9C14B81 /* Pods-BMAGridPageControl-FrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControl-FrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControl-FrameworkTests/Pods-BMAGridPageControl-FrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C44B79C9570B794D1B6B9466 /* Pods-BMAGridPageControl-FrameworkTests.profiling.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControl-FrameworkTests.profiling.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControl-FrameworkTests/Pods-BMAGridPageControl-FrameworkTests.profiling.xcconfig"; sourceTree = "<group>"; };
 		C45BE2B019B6409B8EEE0B73 /* Pods-BMAGridPageControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControlTests/Pods-BMAGridPageControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D012117696D8FC2939D17234 /* libPods-BMAGridPageControl-FrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMAGridPageControl-FrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE8FCDF40E2F1885DD94C30 /* Pods-BMAGridPageControlTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControlTests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControlTests/Pods-BMAGridPageControlTests.adhoc.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		475F85B61AF3822C000AD30D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47CC19FA1940B7A600D20D8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,11 +108,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		475F85BB1AF3822C000AD30D /* BMAGridPageControl-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				475F85BC1AF3822C000AD30D /* Supporting Files */,
+			);
+			path = "BMAGridPageControl-Framework";
+			sourceTree = "<group>";
+		};
+		475F85BC1AF3822C000AD30D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				475F85BD1AF3822C000AD30D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		47CC19F41940B7A600D20D8D = {
 			isa = PBXGroup;
 			children = (
 				47CC1A021940B7A600D20D8D /* BMAGridPageControl */,
 				47CC1A161940B7A600D20D8D /* BMAGridPageControlTests */,
+				475F85BB1AF3822C000AD30D /* BMAGridPageControl-Framework */,
 				47CC19FF1940B7A600D20D8D /* Frameworks */,
 				47CC19FE1940B7A600D20D8D /* Products */,
 				56055CC91217A20FA59E6E74 /* Pods */,
@@ -108,6 +141,7 @@
 			children = (
 				47CC19FD1940B7A600D20D8D /* libBMAGridPageControl.a */,
 				47CC1A0D1940B7A600D20D8D /* BMAGridPageControlTests.xctest */,
+				475F85BA1AF3822C000AD30D /* BMAGridPageControl.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +154,7 @@
 				47CC1A0E1940B7A600D20D8D /* XCTest.framework */,
 				47CC1A111940B7A600D20D8D /* UIKit.framework */,
 				8A93265D099F4137926D584B /* libPods-BMAGridPageControlTests.a */,
+				D012117696D8FC2939D17234 /* libPods-BMAGridPageControl-FrameworkTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -129,7 +164,6 @@
 			children = (
 				47CC1A051940B7A600D20D8D /* BMAGridPageControl.h */,
 				47CC1A071940B7A600D20D8D /* BMAGridPageControl.m */,
-				47CC1A281940B95600D20D8D /* BMAGridPageControl_Private.h */,
 				47CC1A291940B95600D20D8D /* BMAGridPageControlDriver.h */,
 				47CC1A2A1940B95600D20D8D /* BMAGridPageControlDriver.m */,
 				47CC1A031940B7A600D20D8D /* Supporting Files */,
@@ -171,13 +205,46 @@
 				772F1B53897B01EEE23D14CA /* Pods-BMAGridPageControlTests.release.xcconfig */,
 				DFE8FCDF40E2F1885DD94C30 /* Pods-BMAGridPageControlTests.adhoc.xcconfig */,
 				405BD7D9225E45BCE95057DB /* Pods-BMAGridPageControlTests.profiling.xcconfig */,
+				B702E3A9AB35CAECA9C14B81 /* Pods-BMAGridPageControl-FrameworkTests.debug.xcconfig */,
+				5ED514FBAAE803400FB5C689 /* Pods-BMAGridPageControl-FrameworkTests.release.xcconfig */,
+				B6B94AF02276A66DCDEE0B6C /* Pods-BMAGridPageControl-FrameworkTests.adhoc.xcconfig */,
+				C44B79C9570B794D1B6B9466 /* Pods-BMAGridPageControl-FrameworkTests.profiling.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		475F85B71AF3822C000AD30D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475F86121AF38602000AD30D /* BMAGridPageControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		475F85B91AF3822C000AD30D /* BMAGridPageControl-Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475F85D51AF3822D000AD30D /* Build configuration list for PBXNativeTarget "BMAGridPageControl-Framework" */;
+			buildPhases = (
+				475F85B51AF3822C000AD30D /* Sources */,
+				475F85B61AF3822C000AD30D /* Frameworks */,
+				475F85B71AF3822C000AD30D /* Headers */,
+				475F85B81AF3822C000AD30D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BMAGridPageControl-Framework";
+			productName = "BMAGridPageControl-Framework";
+			productReference = 475F85BA1AF3822C000AD30D /* BMAGridPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		47CC19FC1940B7A600D20D8D /* BMAGridPageControl */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47CC1A201940B7A600D20D8D /* Build configuration list for PBXNativeTarget "BMAGridPageControl" */;
@@ -223,6 +290,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Badoo;
+				TargetAttributes = {
+					475F85B91AF3822C000AD30D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
 			};
 			buildConfigurationList = 47CC19F81940B7A600D20D8D /* Build configuration list for PBXProject "BMAGridPageControl" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -238,11 +310,19 @@
 			targets = (
 				47CC19FC1940B7A600D20D8D /* BMAGridPageControl */,
 				47CC1A0C1940B7A600D20D8D /* BMAGridPageControlTests */,
+				475F85B91AF3822C000AD30D /* BMAGridPageControl-Framework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		475F85B81AF3822C000AD30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47CC1A0B1940B7A600D20D8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,6 +367,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		475F85B51AF3822C000AD30D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475F85D81AF382A3000AD30D /* BMAGridPageControl.m in Sources */,
+				475F85DB1AF382A3000AD30D /* BMAGridPageControlDriver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47CC19F91940B7A600D20D8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,6 +485,125 @@
 				SDKROOT = iphoneos;
 			};
 			name = adhoc;
+		};
+		475F85CD1AF3822D000AD30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "BMAGridPageControl-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BMAGridPageControl;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		475F85CE1AF3822D000AD30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "BMAGridPageControl-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BMAGridPageControl;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		475F85CF1AF3822D000AD30D /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "BMAGridPageControl-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BMAGridPageControl;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = adhoc;
+		};
+		475F85D01AF3822D000AD30D /* profiling */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "BMAGridPageControl-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BMAGridPageControl;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = profiling;
 		};
 		47CC1A1E1940B7A600D20D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -746,6 +954,17 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		475F85D51AF3822D000AD30D /* Build configuration list for PBXNativeTarget "BMAGridPageControl-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475F85CD1AF3822D000AD30D /* Debug */,
+				475F85CE1AF3822D000AD30D /* Release */,
+				475F85CF1AF3822D000AD30D /* adhoc */,
+				475F85D01AF3822D000AD30D /* profiling */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		47CC19F81940B7A600D20D8D /* Build configuration list for PBXProject "BMAGridPageControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

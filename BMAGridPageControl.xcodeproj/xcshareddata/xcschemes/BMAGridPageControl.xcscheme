@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "65DDBB681AD54DDDA5CB26DD"
+               BlueprintIdentifier = "EE9810B1C09226FE57DB5E4F"
                BuildableName = "libPods-BMAGridPageControlTests-OCMock.a"
                BlueprintName = "Pods-BMAGridPageControlTests-OCMock"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -63,6 +63,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EE9810B1C09226FE57DB5E4F"
+            BuildableName = "libPods-BMAGridPageControlTests-OCMock.a"
+            BlueprintName = "Pods-BMAGridPageControlTests-OCMock"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

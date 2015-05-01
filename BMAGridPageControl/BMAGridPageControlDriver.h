@@ -33,8 +33,8 @@ typedef NS_ENUM(NSUInteger, BMAGridPageControlItemPosition) {
     BMAGridPageControlItemPositionBottomRight = 3
 };
 
-const NSUInteger BMAGridPageControlDriverItemsInOneRow;
-const NSUInteger BMAGridPageControlDriverItemsInOnePage;
+extern const NSUInteger BMAGridPageControlDriverItemsInOneRow;
+extern const NSUInteger BMAGridPageControlDriverItemsInOnePage;
 
 @class BMAGridPageControlDriver;
 @protocol BMAGridPageControlDriverDelegate <NSObject>
