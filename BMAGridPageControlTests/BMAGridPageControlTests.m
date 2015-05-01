@@ -25,7 +25,6 @@
 #import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>
 #import "BMAGridPageControl.h"
-#import "BMAGridPageControl_Private.h"
 
 @interface BMAGridPageControlTests : XCTestCase
 @property (nonatomic) BMAGridPageControl* pageControl;
@@ -72,10 +71,6 @@
     self.pageControl.totalNumberOfItems = 3u;
     self.pageControl.currentItemIndex = 4u;
     XCTAssertEqual(self.pageControl.currentItemIndex, 2u);
-}
-
-- (void)testThat_GivenControlCreated_IsDelegateOfDriver {
-    XCTAssertEqual(self.pageControl.driver.delegate, self.pageControl);
 }
 
 - (void)testThat_GivenControlCreatedWithBackgroundImage_ThenIntrinsicContentSizeNotZero {

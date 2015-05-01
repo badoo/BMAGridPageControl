@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE9810B1C09226FE57DB5E4F"
-               BuildableName = "libPods-BMAGridPageControlTests-OCMock.a"
-               BlueprintName = "Pods-BMAGridPageControlTests-OCMock"
-               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+               BlueprintIdentifier = "475F85B91AF3822C000AD30D"
+               BuildableName = "BMAGridPageControl.framework"
+               BlueprintName = "BMAGridPageControl-Framework"
+               ReferencedContainer = "container:BMAGridPageControl.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "47CC19FC1940B7A600D20D8D"
-               BuildableName = "libBMAGridPageControl.a"
-               BlueprintName = "BMAGridPageControl"
+               BlueprintIdentifier = "475F85C31AF3822C000AD30D"
+               BuildableName = "BMAGridPageControl-FrameworkTests.xctest"
+               BlueprintName = "BMAGridPageControl-FrameworkTests"
                ReferencedContainer = "container:BMAGridPageControl.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,13 +46,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "47CC1A0C1940B7A600D20D8D"
-               BuildableName = "BMAGridPageControlTests.xctest"
-               BlueprintName = "BMAGridPageControlTests"
+               BlueprintIdentifier = "475F85C31AF3822C000AD30D"
+               BuildableName = "BMAGridPageControl-FrameworkTests.xctest"
+               BlueprintName = "BMAGridPageControl-FrameworkTests"
                ReferencedContainer = "container:BMAGridPageControl.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "475F85B91AF3822C000AD30D"
+            BuildableName = "BMAGridPageControl.framework"
+            BlueprintName = "BMAGridPageControl-Framework"
+            ReferencedContainer = "container:BMAGridPageControl.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -66,10 +75,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE9810B1C09226FE57DB5E4F"
-            BuildableName = "libPods-BMAGridPageControlTests-OCMock.a"
-            BlueprintName = "Pods-BMAGridPageControlTests-OCMock"
-            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            BlueprintIdentifier = "475F85B91AF3822C000AD30D"
+            BuildableName = "BMAGridPageControl.framework"
+            BlueprintName = "BMAGridPageControl-Framework"
+            ReferencedContainer = "container:BMAGridPageControl.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -81,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "475F85B91AF3822C000AD30D"
+            BuildableName = "BMAGridPageControl.framework"
+            BlueprintName = "BMAGridPageControl-Framework"
+            ReferencedContainer = "container:BMAGridPageControl.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

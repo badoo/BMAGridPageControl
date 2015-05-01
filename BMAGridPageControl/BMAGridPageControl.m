@@ -23,9 +23,20 @@
  */
 
 #import "BMAGridPageControl.h"
-#import "BMAGridPageControl_Private.h"
+#import "BMAGridPageControlDriver.h"
 
 #define BMA_WEAK_SELF __weak __typeof(&*self)weakSelf = self;
+
+@interface BMAGridPageControl () <BMAGridPageControlDriverDelegate>
+@property (nonatomic, strong) BMAGridPageControlDriver* driver;
+@property (nonatomic, strong) UIImageView* background;
+@property (nonatomic, strong) NSMutableArray* itemImages;
+
+@property (nonatomic, strong) UIImage *backgroundImage;
+@property (nonatomic, strong) UIImage *itemImage;
+@property (nonatomic, readonly) CGFloat itemHiddenAlpha;
+@end
+
 
 @implementation BMAGridPageControl
 
