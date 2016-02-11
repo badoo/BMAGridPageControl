@@ -17,7 +17,7 @@ While developing this small control, we also wanted to check how you would apply
 
 ##Installation
 
-###Cocoapods
+###CocoaPods
 
 Add the pod to your Podfile:
 
