@@ -41,3 +41,6 @@ Just drop into your project the files under BMAGridPageControl directory.
 
 ##License
 Source code is distributed under MIT license.
+
+##Blog
+Read more on our [tech blog](http://techblog.badoo.com/) or explore our other [open source projects](https://github.com/badoo)
