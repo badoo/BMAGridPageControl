@@ -3,7 +3,7 @@ TLLayoutTransitioning
 
 Enhanced transitioning between UICollectionView layouts in iOS.
 
-##Overview
+## Overview
 
 TLLayoutTransitioning provides a `TLLayoutTransition` transition layout subclass and a `UICollectionView+TLTransitioning` category that combine to solve a few problems with collection view layout transitioning:
 
@@ -15,7 +15,7 @@ TLLayoutTransitioning provides a `TLLayoutTransition` transition layout subclass
 
 Check out the demos in the Examples workspace!
 
-###TLTransitionLayout Class
+### TLTransitionLayout Class
 
 `TLTransitionLayout` is a subclass of `UICollectionViewTransitionLayout` that interpolates linearly between layouts and optionally between the current content offset and a specified final offset. 
 
@@ -50,7 +50,7 @@ The basic usage is as follows:
 
 Note that the collection view will reset `contentOffset` after the transition is finalized, but as illustrated above, this can be negated by setting it back to `toContentOffset` in the completion block.
 
-####Canceling a Transition
+#### Canceling a Transition
 
 If you want to stop the current transition to start a new one from the current position, you need a way to stop the current transition in-place. Apple provides `finishInteractiveTransition` and `cancelInteractiveTransition` to end a transition, but neither of these stops the transition in-place. So, TLLayoutTransitioning provides such a method:
 
@@ -60,7 +60,7 @@ If you want to stop the current transition to start a new one from the current p
 }];
 ```
 
-###UICollectionView+TLTransitioning Category
+### UICollectionView+TLTransitioning Category
 
 The `UICollectionView+TLTransitioning` category provides some of useful methods for calculating for interactive transitions. In particular, the `toContentOffsetForLayout:indexPaths:placement` API calculates final content offset values to achieve Minimal, Visible, Center, Top, Left, Bottom or Right placements for one or more index paths. The expanded version of this API provides for even further fine-tuning and supports transitioning to a different collection view size and content inset:
 
@@ -84,7 +84,7 @@ layout.toContentOffset = toOffset;
 
 where the view controller is configured to provide an instance of `TLTransitionLayout` as described above. Check out the [Resize sample project][2] in the Examples workspace to see this in action. 
 
-##Installation
+## Installation
 
 If you're not using CocoaPods, copy the following files into your project:
 
@@ -98,15 +98,15 @@ As well as the following files from [AHEasing][4]:
 	easing.h
 	easing.c
 
-##Examples
+## Examples
 
 Open the Examples workspace (not the project) to run the sample app. The following examples are included:
 
-###Resize
+### Resize
 
 The Resize example combines `TLTransitionLayout` and `-[UICollectionView+TLTransitioning transitionToCollectionViewLayout:duration:easing:completion:]` as a better alternative to `-[UICollectionView setCollectionViewLayout:animated:completion]`. Experiment with different durations, easing curves and content offset options on the settings panel. Toggle "show section headers" to see transitioning supplementary views.
 
-###Pinch
+### Pinch
 
 The Pinch example uses demonstrates a simple pinch-driven interactive transition using `TLTransitionLayout`. The destination `contentOffset` is selected such that the initial visible cells remain centered. Or if a cell is tapped, the `contentOffset` the cell is centered.
 
